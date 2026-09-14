@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------------------------
+STRING-=====>
+
+1->
+String- String is an array of character ending or terminated with null character ('\0').
+Syntax:
+char array_name[size];
+
+2->
+Input function.
+- scanf("%s",string_var);- it is not capable of accepeting multiword string.
+- scanf("%[^\n]s",string_var);- it is capable of accepeting multiword string.
+- gets(string_var);- it is capable of accepeting multiword string.
+
+3->
+Output function.
+- printf("%s",string_var);
+- puts(string_var);
+
+----------------------------------------------------------------------------------------------
+STRING LIBRARY FUNCTION-=>
+
+1->
+String concatenation- Process of joining two strings.
+Syntax:
+strcat(string1,string2);
+
+2->
+String comparison- Process of compare two strings.
+Syntax:
+strcmp(string1,string2);
+
+strcmp(string1,string2);
+<0 when string1 < string2
+=0 when string1 = string2
+>0 when string1 > string2
+
+3->
+String copying- Process of copying one string into other strings.
+Syntax:
+strcpy(string1,string2);
+
+4->
+String length- Process of knowing no of character of strings.
+Syntax:
+strlen(string);
+
+5->
+String reverse- Process of exchange the character of strings-->>
+Syntax:
+strrev(string);
+
+----------------------------------------------------------------------------------------------

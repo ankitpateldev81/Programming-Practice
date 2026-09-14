@@ -1,0 +1,40 @@
+----------------------------------------------------------------------------------------------
+LOOPS-=====>
+
+1->
+While loop-
+Syntax:
+while (condition)
+{
+    //code
+}
+
+2->
+Do-While loop-
+Syntax:
+do
+{
+    //code
+} while (condition);
+
+3->
+For loop-
+Syntax:
+for (size_t i = 0; i < count; i++)
+{
+    //code
+}
+
+4->
+Break statement-
+Syntax:
+break;
+-Used for break the statement.
+
+5->
+Continue statement-
+Syntax:
+continue;
+-Used for skip the iteration.
+
+----------------------------------------------------------------------------------------------

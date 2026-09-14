@@ -1,0 +1,81 @@
+----------------------------------------------------------------------------------------------
+CONDITIONAL STATEMENT-=====>
+
+1->
+If statement- 
+Syntax:
+if (condition)
+{
+    //code
+}
+
+2->
+If-Else statement- 
+Syntax:
+if (condition)
+{
+    //True code
+}
+else
+{
+    //False code
+}
+
+3->
+Nested If-Else statement- 
+Syntax:
+if (condition)
+{
+    if (condition)
+    {
+        //code
+    }
+    else
+    {
+        //code
+    }
+else
+{
+    //code
+}
+}
+
+4->
+Nested Else-If statement- 
+Syntax:
+if (condition)
+{
+    //code
+}
+else if (condition)
+{
+    //code
+}
+else if (condition)
+{
+    //code
+}
+else
+{
+    //code
+}
+
+5->
+Switch statement- 
+Syntax:
+switch (expression)
+{
+case 1:
+    //code
+    break;
+case 2:
+    //code
+    break;    
+case n:
+    //code
+    break;
+default:
+    break;
+}
+    
+---------------------------------------------------------------------------

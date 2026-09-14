@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------
+FUNCTION-=====>
+
+1->
+Function declaration- Writing name of program.
+Syntax:
+data_type function_name(datatype argument);
+
+2->
+Function definition- Writing body of function.
+Syntax:
+data_type function_name(datatype argument);
+{
+    function body;
+}
+
+3->
+Function calling- Call the function.
+Syntax:
+function_name(argument_list);
+
+4->
+Function Syntax Example:
+
+#include<stdio.h>
+void fun();    // FUNCTION DECLARATION
+
+void main()
+{
+    fun();     //FUNCTION CALLING
+}
+
+void fun()    //FUNCTION DEFINITION
+{
+    printf("This is body of function:");
+} 
+   
+-----------------------------------------------------------------------------------------------
