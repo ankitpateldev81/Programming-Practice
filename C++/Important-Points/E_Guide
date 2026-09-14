@@ -1,0 +1,75 @@
+----------------------------------------------------------------------------------------------
+INHERITENCE-=====>
+
+1->
+Definition- Child class [derived class,sub claa] aquire/adopt/inherit the property and functionality of parent class [base class, super class]. Private member never inherited.
+Syntax:
+class Child_class_name : visibility_mode parent_class_name.
+
+TYPES-=>
+
+1->
+Single- One child class inherited from only one parent class.
+Syntax:
+class parent
+{
+    code;
+};
+class child : public parent
+{
+    code;
+};
+
+2->
+Multilevel- One class inherite other class whic is further inherited by another class.
+Syntax:
+class One
+{
+    code;
+};
+class other : public one
+{
+    code;
+};
+class another : public other
+{
+    code;
+}
+
+3->
+Multiple- One child class inherite more than one parent class.
+Syntax:
+class parent1
+{
+    code;
+};
+class parent2
+{
+    code;
+};
+class child : public parent1, public parent2
+{
+    code;
+}
+
+4->
+Heirarchical- more than one child class inherite one parent class.
+Syntax:
+class parent
+{
+    code;
+};
+class child1 : public parent
+{
+    code;
+};
+class child2 : public parent
+{
+    code;
+}
+
+5->
+Hybrid- Combination of more than one type of inheritence.
+Syntax:-
+
+----------------------------------------------------------------------------------------------

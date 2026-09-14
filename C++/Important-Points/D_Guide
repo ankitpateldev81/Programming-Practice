@@ -1,0 +1,55 @@
+----------------------------------------------------------------------------------------------
+CONSTRUCTORS-=====>
+
+1->
+Definition- Special member function. Name is same as class name. Called or invoked automatically when of object of its class is created. Always public. 
+
+TYPES-=>
+
+1->
+Default constructor- Having no argument.
+Syntax:
+class classname
+{
+    public:
+    classname()
+    {
+        code;
+    }
+};
+
+2->
+Parameterised constructor- Having argument.
+Syntax:
+class classname
+{
+    public:
+    classname(argument)
+    {
+        code;
+    }
+};       
+
+3->
+Copy constructor- Class reference(&) passed as parameter in constructor.
+Syntax:
+constructor_name(classname &objectname);
+
+OTHER-==>
+
+1->
+Constructor overloading- Multiple constructor with same name but different parameter.
+Syntax:
+class classname
+{
+    classname()
+    {
+        code;
+    }
+    classname(para1,para2.....)
+    {
+        code
+    }
+};
+
+----------------------------------------------------------------------------------------------

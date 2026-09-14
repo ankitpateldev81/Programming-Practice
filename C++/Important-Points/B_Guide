@@ -1,0 +1,35 @@
+----------------------------------------------------------------------------------------------
+CLASS & OBJECT-=====>
+
+1->
+Class- Class is template or blueprint of objects. User define datatypes that has data member and member function. Used to create objects.
+Object- Object is an instance of classes.
+Example:
+- world is class and india(exist in world) is object.
+- india is class and up(exist in india) is object.
+- up is class and sonbhadra(exist in up) is object.
+
+2->
+Defining class and object.
+Syntax:
+//class
+Class Classname
+{
+    Access specifier:  [can be public,private, or protected]
+    Data memeber;  [variable to be used]
+    Member function()  [method to access data member]
+    {
+        Statement;
+    }
+};  [class name end with semicolon]
+//object
+Classname Objectname;
+Objectname.data member;
+Objectname.member function;
+
+3->
+Scope resolution operator [ :: ]-
+- The scope resolution operator allows you to access variables, functions, or classes within a specific namespace. Accessing Global Variables: When you have a local variable with the same name as a global variable, the scope resolution operator lets you access the global variable from within a function or block.
+- Used to aceess method from outside the class.
+
+----------------------------------------------------------------------------------------------

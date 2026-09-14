@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------
+FUNCTION OVERLOADING-=====>
+
+1-> 
+Function overloading- Multiple function withe same name but different parameters.
+- Function overloaded by changing no of argument or/and type of argument.
+Syntax:
+class classname
+{
+    public:
+    void demo() {code}
+    void demo(variable) {code}
+};
+classname objectname;
+objectname.demo();
+objectname.demo(var);
+
+----------------------------------------------------------------------------------------------

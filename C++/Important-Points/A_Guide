@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------
+C++ PROGRAMS-=====>
+
+1->
+Cin operator- Used for input predefined in <istream> [input stream] class.
+Syntax:
+cin>>variable;
+
+2->
+Cout operator- Used for output predefined in <ostream> [output stream] class.
+Syntax:
+cout<<"value"<<variable;
+
+3->
+endl- means next line.
+
+4->
+using namespace std;
+The statement [ using namespace std; ] in C++ is a directive that brings all the names (like classes, functions, and objects) from the std namespace into the current scope.
+
+----------------------------------------------------------------------------------------------
